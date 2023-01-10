@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codebox, your coding AI</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <script>
+  function fill1() { document.getElementById("myinput").value = "What is programming";
+  document.getElementsByClassName('parent')[0].style.display = 'none';
+}
+  function fill2() { document.getElementById("myinput").value = "Write hello world code in java";
+  document.getElementsByClassName('parent')[0].style.display = 'none';
+}   
+
+function fill3() { document.getElementById("myinput").value = "  What are the differences between flutter and react native ";
+  document.getElementsByClassName('parent')[0].style.display = 'none';
+}  
+   
+function fill4() { document.getElementById("myinput").value = "Write a java code for creating admob banner ads";
+  document.getElementsByClassName('parent')[0].style.display = 'none';
+} 
+
+function fill5() { document.getElementById("myinput").value = "Write an algoritm that explains how the internet works";
+  document.getElementsByClassName('parent')[0].style.display = 'none';
+} 
+
+function fill6() { document.getElementById("myinput").value = "Write code for hello world in javascript, java, python, react, react native, c, c# and c++";
+  document.getElementsByClassName('parent')[0].style.display = 'none';
+} 
+  
+     </script>
+
+
+
+
+  </head>
+  <body>
+    <div id="app">
+      <div id="chat_container"></div>
+
+ <div class="parent">
+    <button class="but" onclick="fill1()">
+      What is programming 
+    </button>
+
+    <button class="but" onclick="fill2()">
+      Write hello world code in java 
+    </button>
+
+    <button class="but" onclick="fill3()">
+      What are the differences between flutter and react native 
+    </button>
+
+    <button class="but" onclick="fill4()">
+      Write a java code for creating admob banner ads
+    </button>
+
+    <button class="but"  onclick="fill5()">
+      Write an algoritm that explains how the internet works
+    </button>
+
+    <button class="but"  onclick="fill6()">
+      Write code for hello world in javascript, java, python, react, react native, c, c# and c++
+    </button>
+
+</div>
+
+      <form>
+        <textarea id="myinput" name="prompt" rows="1" cols="1" placeholder="Ask Codebox... "></textarea>
+        <button type="submit"> <img src="assets/send.svg"/> </button>
+      </form>
+    </div>
+  
+  
+
+  <script type="module" src="script.js"></script>
+  </body>
+</html>
+  
