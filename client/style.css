@@ -26,14 +26,14 @@ body {
   border: none;
   display: block;
   margin: 5px;
-  padding: 10px;
+  padding: 8px;
   position: absolute;
   
  }
 
 .but {
   position: relative;
-  bottom: 40px;
+  bottom: 20px;
   border: none;
   padding: 5px 10px;
   text-align: center;
@@ -43,7 +43,7 @@ body {
   background-color: #2b2d58;
   text-align: center;
   color:#fff;
-  margin: 25px;
+  margin: 15px;
   box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 1);
   transition: 0.7s;
 }
