@@ -25,21 +25,21 @@ body {
 .parent {
   border: none;
   display: block;
-  margin: 10px;
-  padding: 40px;
+  margin: 5px;
+  padding: 10px;
   position: absolute;
   
  }
 
 .but {
   position: relative;
-  bottom: 30px;
+  bottom: 40px;
   border: none;
-  padding: 10px 25px;
+  padding: 5px 10px;
   text-align: center;
   text-decoration: none;
   float: left;
-  font-size: 16px;
+  font-size: 13px;
   background-color: #2b2d58;
   text-align: center;
   color:#fff;
